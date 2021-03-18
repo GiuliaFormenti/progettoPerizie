@@ -27,4 +27,4 @@ Link heroku: https://formenti-progetto-perizie.herokuapp.com/
 
 Credenziali admin:  **username**: admin   **password**: adminpassword
 
-Credenziali utente: **mail**: la sua mail   **password**: password ricevuta tramite mail(noreply.rilieviperizie#gmail.com) che potrà poi essere cambiata 
+Credenziali utente: **mail**: utente   **password**: password ricevuta tramite mail(noreply.rilieviperizie#gmail.com) che potrà poi essere cambiata 
