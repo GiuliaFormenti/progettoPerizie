@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+ 
+ <head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Security-Policy" 
+      content="default-src *;  
+	           script-src * 'unsafe-inline'; 
+			   style-src * 'unsafe-inline'; 
+			   img-src * data: content:;"
+    > 
+
+	  
+	<!--meta http-equiv="Content-Security-Policy" content="
+		default-src * gap: ws: https://ssl.gstatic.com;
+		style-src   * 'unsafe-inline' 'self' data: blob:;
+		script-src  * 'unsafe-inline' 'unsafe-eval' data: blob:;
+		img-src     * data: 'unsafe-inline' 'self';"
+	-->
+			   
+	<meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover"> 
+	<meta name="color-scheme" content="light dark"> 
+		
+	<link  rel="stylesheet"  href="css/login.css" />
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdWgu3MKgdqJyBFqh7bEAOmXpzwWRgVL0">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js" integrity="sha512-nOQuvD9nKirvxDdvQ9OMqe2dgapbPB7vYAMrzJihw5m+aNcf0dX53m6YxM4LgA9u8e9eg9QX+/+mPu8kCNpV2A==" crossorigin="anonymous"></script>
+    <script src="cordova.js"> </script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="javascript/login.js"> </script>
+	<script src = "javascript/library.js"></script>
+ </head>
+ 
+ 
+ <body>
+	<div class="materialContainer">
+
+
+		<div class="box">
+	 
+		   <div class="title">LOGIN</div>
+	 
+		   <div class="input">
+			  <label for="name">Username</label>
+			  <input type="text" name="name" id="name">
+			  <span class="spin"></span>
+		   </div>
+	 
+		   <div class="input">
+			  <label for="pass">Password</label>
+			  <input type="password" name="pass" id="pass">
+			  <span class="spin"></span>
+		   </div>
+	 
+		   <div class="button login">
+			  <button id="btnLogin"><span>GO</span> <i class="fa fa-check"></i></button>
+		   </div>
+	 
+		   <a href="" class="pass-forgot">Forgot your password?</a>
+	 
+		</div>
+	 
+		<div class="overbox">
+		   <div class="material-button alt-2"><span class="shape"></span></div>
+	 
+		   <div class="title">REGISTER</div>
+	 
+		   <div class="input">
+			  <label for="regname">Username</label>
+			  <input type="text" name="regname" id="regname">
+			  <span class="spin"></span>
+		   </div>
+	 
+		   <div class="input">
+			  <label for="regmail">Mail</label>
+			  <input type="text" name="regpass" id="regmail">
+			  <span class="spin"></span>
+		   </div>
+	 
+		   <!--<div class="input">
+			  <label for="reregpass">Repeat Password</label>
+			  <input type="password" name="reregpass" id="reregpass">
+			  <span class="spin"></span>
+		   </div>-->
+	 
+		   <div id="btnRegister" class="button">
+			  <button><span>NEXT</span></button>
+		   </div>
+	 
+	 
+		</div>
+	 
+	 </div>
+</body>
+</html>
